@@ -1,0 +1,16 @@
+{
+  "galleries": [
+    {
+      "name": "Galeria 1",
+      "image": "./images/gallery1.png",
+      "projects": [
+        {
+          "name": "Projeto 1",
+          "description": "Descrição do Projeto 1",
+          "image": "./images/project1.png",
+          "video": "https://www.youtube.com/embed/xxxxxx"
+        }
+      ]
+    }
+  ]
+}
