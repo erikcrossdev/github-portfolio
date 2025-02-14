@@ -4,5 +4,223 @@
     "image": "src/erik.png",
     "title": "Game Developer | C# | Unity | C++| Unreal | C# Unity Programmer at Edify Education",
     "description": "My name is Erik, and I’m a game programmer based in Porto Alegre, Brazil. I began my programming journey with C++, C#, and PHP, and have been deeply involved with Unity, studying it since 2015 and working professionally with the engine since 2016. Throughout my career, I’ve worked on multiplayer games (using Unity’s HLAPI, Mirror HLAPI, and Photon PUN), VR games for Oculus Go, and backend integration with JavaScript, TypeScript, Prisma, GraphQL, AWS Lambda, GameSparks, and Steamworks.NET. I was actively involved in features including UI/UX programming, gameplay development, and tools creation. Academically, I’ve had the chance to explore Unity, Physics, AR with Vuforia OpenGL Phaser with Ionic, Arduino, Unreal Engine 4 and 5, C and 3D math. Some of my recent projects include Relic Hunters: Legend (a multiplayer shooter-looter), Edify Play (a mobile/WebGL educational game), and Remnants of Nightfall (my final college project developed in Unreal Engine 5)."
-  }
+  },
+  "gallery": [
+    {
+      "projectName": "Game Projects",
+      "coverImage": "src/erik.png",
+      "projects": [
+        {
+          "projectTitle": "Relic Hunters: Legend",
+          "targetPlatform": "PC, Steam",
+          "technologies": ["Unity", "C#", "Photon PUN", "Steamworks.NET"],
+          "description": "A multiplayer shooter-looter game developed using Unity and Photon PUN.",
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/example1",
+          "downloadLink": "https://store.steampowered.com/app/example1"
+        },
+        {
+          "projectTitle": "Edify Play",
+          "targetPlatform": "Mobile, WebGL",
+          "technologies": ["Unity", "C#", "GraphQL", "AWS Lambda"],
+          "description": "An educational game designed for WebGL and mobile platforms.",
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/example2",
+          "downloadLink": "https://playstore.example.com/app/example2"
+        }
+      ]
+    },
+    {
+      "projectName": "VR & AR Projects",
+      "coverImage": "src/erik.png",
+      "projects": [
+        {
+          "projectTitle": "Oculus Go VR Experience",
+          "targetPlatform": "Oculus Go",
+          "technologies": ["Unity", "C#", "VR", "Oculus SDK"],
+          "description": "A virtual reality experience developed for Oculus Go.",
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/example3",
+          "downloadLink": "https://example.com/vr-project"
+        }
+      ]
+    },
+    {
+      "projectName": "Tools & Utilities",
+      "coverImage": "src/erik.png",
+      "projects": [
+        {
+          "projectTitle": "Level Design Tool for Unity",
+          "targetPlatform": "Unity Editor",
+          "technologies": ["Unity", "C#", "Editor Tools"],
+          "description": "A custom tool to assist game developers in designing levels in Unity.",
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/example4",
+          "downloadLink": "https://github.com/example/tool"
+        }
+      ]
+    },
+    {
+      "projectName": "AI & Machine Learning",
+      "coverImage": "src/erik.png",
+      "projects": [
+        {
+          "projectTitle": "AI NPC Behavior System",
+          "targetPlatform": "PC, Unity",
+          "technologies": ["Unity", "C#", "Machine Learning", "AI"],
+          "description": "An AI system for dynamic NPC behavior using machine learning.",
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/example5",
+          "downloadLink": "https://example.com/ai-npc"
+        }
+      ]
+    },
+    {
+      "projectName": "Mobile Games",
+      "coverImage": "src/mobile_games_cover.png",
+      "projects": [
+        {
+          "projectTitle": "Endless Runner",
+          "targetPlatform": "iOS, Android",
+          "technologies": ["Unity", "C#", "Mobile"],
+          "description": "A fast-paced endless runner game with simple controls.",
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/example6",
+          "downloadLink": "https://playstore.example.com/endless-runner"
+        }
+      ]
+    },
+    {
+      "projectName": "Unreal Engine Projects",
+      "coverImage": "src/unreal_projects_cover.png",
+      "projects": [
+        {
+          "projectTitle": "Remnants of Nightfall",
+          "targetPlatform": "PC, Unreal Engine",
+          "technologies": ["Unreal Engine 5", "C++", "Blueprints"],
+          "description": "A horror survival game developed in Unreal Engine 5.",
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/example7",
+          "downloadLink": "https://store.steampowered.com/app/example7"
+        }
+      ]
+    },
+    {
+      "projectName": "Web & Backend Systems",
+      "coverImage": "src/web_backend_cover.png",
+      "projects": [
+        {
+          "projectTitle": "Game Backend with GraphQL",
+          "targetPlatform": "AWS, Web",
+          "technologies": ["GraphQL", "AWS Lambda", "Node.js", "Prisma"],
+          "description": "A scalable game backend using GraphQL and AWS Lambda.",
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/example8",
+          "downloadLink": "https://github.com/example/game-backend"
+        }
+      ]
+    },
+    {
+      "projectName": "Game Projects1",
+      "coverImage": "src/erik.png",
+      "projects": [
+        {
+          "projectTitle": "Relic Hunters: Legend",
+          "targetPlatform": "PC, Steam",
+          "technologies": ["Unity", "C#", "Photon PUN", "Steamworks.NET"],
+          "description": "A multiplayer shooter-looter game developed using Unity and Photon PUN.",
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/example1",
+          "downloadLink": "https://store.steampowered.com/app/example1"
+        },
+        {
+          "projectTitle": "Edify Play",
+          "targetPlatform": "Mobile, WebGL",
+          "technologies": ["Unity", "C#", "GraphQL", "AWS Lambda"],
+          "description": "An educational game designed for WebGL and mobile platforms.",
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/example2",
+          "downloadLink": "https://playstore.example.com/app/example2"
+        }
+      ]
+    },
+    {
+      "projectName": "Game Projects2",
+      "coverImage": "src/erik.png",
+      "projects": [
+        {
+          "projectTitle": "Relic Hunters: Legend",
+          "targetPlatform": "PC, Steam",
+          "technologies": ["Unity", "C#", "Photon PUN", "Steamworks.NET"],
+          "description": "A multiplayer shooter-looter game developed using Unity and Photon PUN.",
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/example1",
+          "downloadLink": "https://store.steampowered.com/app/example1"
+        },
+        {
+          "projectTitle": "Edify Play",
+          "targetPlatform": "Mobile, WebGL",
+          "technologies": ["Unity", "C#", "GraphQL", "AWS Lambda"],
+          "description": "An educational game designed for WebGL and mobile platforms.",
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/example2",
+          "downloadLink": "https://playstore.example.com/app/example2"
+        }
+      ]
+    },
+    {
+      "projectName": "Game Projects3",
+      "coverImage": "src/erik.png",
+      "projects": [
+        {
+          "projectTitle": "Relic Hunters: Legend",
+          "targetPlatform": "PC, Steam",
+          "technologies": ["Unity", "C#", "Photon PUN", "Steamworks.NET"],
+          "description": "A multiplayer shooter-looter game developed using Unity and Photon PUN.",
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/example1",
+          "downloadLink": "https://store.steampowered.com/app/example1"
+        },
+        {
+          "projectTitle": "Edify Play",
+          "targetPlatform": "Mobile, WebGL",
+          "technologies": ["Unity", "C#", "GraphQL", "AWS Lambda"],
+          "description": "An educational game designed for WebGL and mobile platforms.",
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/example2",
+          "downloadLink": "https://playstore.example.com/app/example2"
+        }
+      ]
+    },
+    {
+      "projectName": "Game Projects4",
+      "coverImage": "src/erik.png",
+      "projects": [
+        {
+          "projectTitle": "Relic Hunters: Legend",
+          "targetPlatform": "PC, Steam",
+          "technologies": ["Unity", "C#", "Photon PUN", "Steamworks.NET"],
+          "description": "A multiplayer shooter-looter game developed using Unity and Photon PUN.",
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/example1",
+          "downloadLink": "https://store.steampowered.com/app/example1"
+        },
+        {
+          "projectTitle": "Edify Play",
+          "targetPlatform": "Mobile, WebGL",
+          "technologies": ["Unity", "C#", "GraphQL", "AWS Lambda"],
+          "description": "An educational game designed for WebGL and mobile platforms.",
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/example2",
+          "downloadLink": "https://playstore.example.com/app/example2"
+        }
+      ]
+    },
+    {
+      "projectName": "Game Projects5",
+      "coverImage": "src/erik.png",
+      "projects": [
+        {
+          "projectTitle": "Relic Hunters: Legend",
+          "targetPlatform": "PC, Steam",
+          "technologies": ["Unity", "C#", "Photon PUN", "Steamworks.NET"],
+          "description": "A multiplayer shooter-looter game developed using Unity and Photon PUN.",
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/example1",
+          "downloadLink": "https://store.steampowered.com/app/example1"
+        },
+        {
+          "projectTitle": "Edify Play",
+          "targetPlatform": "Mobile, WebGL",
+          "technologies": ["Unity", "C#", "GraphQL", "AWS Lambda"],
+          "description": "An educational game designed for WebGL and mobile platforms.",
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/example2",
+          "downloadLink": "https://playstore.example.com/app/example2"
+        }
+      ]
+    }
+  ]
 }
