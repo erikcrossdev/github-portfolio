@@ -19,7 +19,7 @@ main {
 }
 
 #about-me {
-  text-align: center; /* Centraliza o título */
+  text-align: center;
   padding: 1rem;
   margin-bottom: 1rem;
   background-color: white;
@@ -35,44 +35,44 @@ main {
 }
 
 #about-me .content {
-  display: flex; /* Define layout flex para organizar imagem e texto lado a lado */
-  gap: 1.5rem; /* Espaçamento entre imagem e texto */
-  align-items: flex-start; /* Alinha os itens no topo */
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
 }
 
 #about-me img {
   padding-top: 10px;
-  flex-shrink: 0; /* Garante que a imagem não será redimensionada */
-  border-radius: 40px; /* Adiciona bordas arredondadas */
+  flex-shrink: 0;
+  border-radius: 40px;
 }
 
 #about-me .content div {
   display: flex;
-  flex-direction: column; /* Organiza o texto verticalmente */
-  gap: 0.5rem; /* Espaçamento entre o h3 e o parágrafo */
-  text-align: left; /* Alinha o texto à esquerda */
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
   margin-bottom: 1.5rem;
 }
 
 #about-me h3 {
-  margin: 0; /* Remove margens padrão */
-  font-size: 1.25rem; /* Define o tamanho do título do h3 */
+  margin: 0;
+  font-size: 1.25rem;
   color: #555;
 }
 
 #about-me p {
-  margin: 0; /* Remove margens padrão */
-  line-height: 1.5; /* Melhora a legibilidade do texto */
+  margin: 0;
+  line-height: 1.5;
   color: #666;
 }
 
 #gallery-content {
   margin: auto;
-  flex-direction: row; /* Organiza o texto verticalmente */
+  flex-direction: row;
   display: flex;
-  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
-  justify-content: center; /* Centraliza os itens */
-  gap: 1rem; /* Espaço entre os elementos */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 }
 
 #gallery h2 {
@@ -82,25 +82,24 @@ main {
 }
 
 #gallery img {
-  width: 200px; /* Defina o tamanho desejado */
-
+  width: 200px;
   height: auto;
   cursor: pointer;
   border: 2px solid transparent;
   border-radius: 5px;
   transition: border-color 0.3s;
-  border-radius: 10px; /* Opcional: deixa as bordas arredondadas */
+  border-radius: 10px;
 }
 
 .GalleryElement {
   background-color: #7c8c98;
   border-radius: 5px;
-  margin: 0; /* Remove margens padrão */
+  margin: 0;
   padding: 0.5rem;
   text-align: center;
-  flex: 1 1 250px; /* Define um tamanho base de 250px */
-  max-width: 300px; /* Evita que os elementos fiquem muito grandes */
-  min-width: 200px; /* Mantém um tamanho mínimo para responsividade */
+  flex: 1 1 250px;
+  max-width: 300px;
+  min-width: 200px;
 }
 
 .GalleryElement h3 {
@@ -122,10 +121,10 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
 }
 
-
-.popup {
+#popup-overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -138,17 +137,74 @@ main {
   z-index: 1000;
 }
 
-.popup.active {
+#popup-overlay.active {
   display: flex;
 }
 
-.popup-content {
+#popup-content {
   background: #fff;
   padding: 20px;
   width: 90%;
-  max-width: 600px;
+  max-width: 1000px; /* Aumentei a largura máxima */
+  max-height: 90vh;
   border-radius: 10px;
   position: relative;
+  overflow-y: auto;
+  justify-content: center;
+}
+
+.category-description {
+  text-align: center; /* Centraliza a descrição da categoria */
+  font-style: italic; /* Deixa o texto em itálico */
+  color: #555; /* Cor mais suave */
+  padding-bottom: 20px; /* Adiciona padding abaixo do título */
+  margin-bottom: 20px; /* Espaçamento abaixo da descrição */
+  border-bottom: 3px solid #353232; /* Adiciona uma linha abaixo do título (opcional) */
+}
+
+.project p strong {
+  color: #333; /* Cor mais escura para os rótulos (Platform, Technologies, Description) */
+}
+
+#popup-content h2 {
+  text-align: center; /* Centraliza o texto */
+  margin: 0 0 30px; /* Adiciona margem abaixo do título */
+  padding-top: 10px; /* Adiciona padding abaixo do título */
+  padding-bottom: 10px; /* Adiciona padding abaixo do título */
+ 
+  font-size: 2.5rem; /* Aumenta o tamanho da fonte */
+  color: #333; /* Define a cor do texto */
+}
+
+/* Estilos para telas menores (responsividade) */
+@media (max-width: 768px) {
+  #popup-content {
+      width: 95%; /* Ocupa mais espaço em telas menores */
+      max-width: 95%; /* Limita a largura máxima */
+      padding: 15px; /* Reduz o padding para telas menores */
+  }
+
+  .project iframe {
+      height: 200px; /* Reduz a altura do vídeo em telas menores */
+  }
+}
+
+@media (max-width: 480px) {
+  #popup-content {
+      width: 100%; /* Ocupa toda a largura em telas muito pequenas */
+      max-width: 100%;
+      padding: 10px; /* Padding ainda menor */
+      border-radius: 0; /* Remove bordas arredondadas para telas muito pequenas */
+  }
+
+  .project iframe {
+      height: 150px; /* Altura ainda menor para vídeos */
+  }
+
+  .download-link {
+      width: 100%; /* Faz o botão ocupar toda a largura */
+      text-align: center;
+  }
 }
 
 #close-btn {
@@ -168,27 +224,55 @@ main {
   background: #c0392b;
 }
 
-#popup-video,
-#popup-download {
-  display: none;
-  margin-top: 15px;
+#projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-#popup-video.visible,
-#popup-download.visible {
-  display: block;
+.project {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 50px;
+  padding-top:25px;
 }
 
-#popup-download {
+.project:last-child {
+  border-bottom: none;
+}
+
+.project h3 {
+  margin: 0 0 10px;
+  color: #333;
+  font-size: 1.5rem; /* Aumenta o tamanho da fonte */
+}
+
+.project img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.project p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.project iframe {
+  width: 100%;
+  height: 315px;
+  margin-top: 10px;
+}
+
+.download-link {
+  display: inline-block;
   background-color: #3498db;
   color: #fff;
   padding: 10px 15px;
   text-decoration: none;
   border-radius: 5px;
-  text-align: center;
+  margin-top: 10px;
 }
 
-#popup-download:hover {
+.download-link:hover {
   background-color: #2980b9;
 }
-

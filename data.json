@@ -9,14 +9,14 @@
     {
       "projectName": "Game Projects",
       "coverImage": "src/erik.png",
+      "description": "lorem ipsum blablabal",
       "projects": [
         {
           "projectTitle": "Relic Hunters: Legend",
           "targetPlatform": "PC, Steam",
           "technologies": ["Unity", "C#", "Photon PUN", "Steamworks.NET"],
           "description": "A multiplayer shooter-looter game developed using Unity and Photon PUN.",
-          "embeddedVideoYoutube": "https://www.youtube.com/embed/example1",
-          "downloadLink": "https://store.steampowered.com/app/example1"
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/example1"
         },
         {
           "projectTitle": "Edify Play",

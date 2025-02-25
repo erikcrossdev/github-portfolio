@@ -1,45 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery Page</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
     <div id="gallery-container">
-      <header>
-        <h1>Galeria de Projetos</h1>
-      </header>
+        <header>
+            <h1>Galeria de Projetos</h1>
+        </header>
 
-      <main>
-        <section id="about-me">
-          <h1>Erik Cruz</h1>
-          <div class="content">
-            <img src="get data" alt="Erik Cruz Picture" width="200" />
-            <div>
-              <h3>get data</h3>
-              <p>get data</p>
+        <main>
+            <section id="about-me">
+                <h1>Erik Cruz</h1>
+                <div class="content">
+                    <img src="" alt="Erik Cruz Picture" width="200">
+                    <div>
+                        <h3>get data</h3>
+                        <p>get data</p>
+                    </div>
+                </div>
+            </section>
+
+            <div id="gallery">
+                <h2>Projects</h2>
+                <div id="gallery-content"></div>
             </div>
-          </div>
-        </section>
-
-        <div id="gallery">
-          <h2>Projects</h2>
-          <div id="gallery-content"></div>
-          <!-- Gallery items will be dynamically loaded here -->
-        </div>
-
-        <div id="project-details" class="hidden">
-          <!--
-          <h2 id="project-name"></h2>
-          <p id="project-description"></p>
-          <img id="project-image" alt="Imagem do projeto" />
-          <div id="project-video"></div>-->
-        </div>
-      </main>
+        </main>
     </div>
 
+    <div id="popup-overlay" class="hidden">
+      <div id="popup-content">
+          <!-- O conteúdo será preenchido dinamicamente pelo JavaScript -->
+      </div>
+  </div>
+
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
