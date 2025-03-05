@@ -42,11 +42,11 @@ fetch("data.json")
 
             projectElement.innerHTML = `
                 <h3>${project.projectTitle}</h3>
-                <img src="${project.coverImage}" alt="${project.projectTitle}">
+                ${project.coverImage && project.coverImage.trim() !== "" ? `<img src="${project.coverImage}" alt="${project.projectTitle}" width="200"> ` : ""}
                 <p><strong>Platform:</strong> ${project.targetPlatform}</p>
                 <p><strong>Technologies:</strong> ${project.technologies.join(", ")}</p>
                 <p><strong>Description:</strong> ${project.description}</p>
-                ${project.embeddedVideoYoutube ? `<iframe src="${project.embeddedVideoYoutube}" width="100%" height="315" frameborder="0" allowfullscreen></iframe>` : ""}
+                ${project.embeddedVideoYoutube ? `<iframe src="${project.embeddedVideoYoutube}" width="560" height="315" frameborder="0" allowfullscreen></iframe>` : ""}
                 ${project.downloadLink && project.downloadLink.trim() !== "" ? `<a href="${project.downloadLink}" target="_blank" class="download-link">Download</a>` : ""}
             `;
 

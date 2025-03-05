@@ -2,11 +2,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #565454;
 }
 
 header {
-  background-color: #333;
+  background-color: #0e0e0e;
   color: white;
   padding: 1rem;
   text-align: center;
@@ -82,7 +82,7 @@ main {
 }
 
 #gallery img {
-  width: 200px;
+  width: 250px;
   height: auto;
   cursor: pointer;
   border: 2px solid transparent;
@@ -92,7 +92,7 @@ main {
 }
 
 .GalleryElement {
-  background-color: #7c8c98;
+  background-color: #75787a;
   border-radius: 5px;
   margin: 0;
   padding: 0.5rem;
@@ -103,7 +103,7 @@ main {
 }
 
 .GalleryElement h3 {
-  color: #443f3f;
+  color: #ebe5e5;
 }
 
 #gallery img:hover {
@@ -253,6 +253,10 @@ main {
 }
 
 .project p {
+  margin: 5px 0;
+  color: #555;
+}
+.project li {
   margin: 5px 0;
   color: #555;
 }
