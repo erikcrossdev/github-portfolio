@@ -318,7 +318,7 @@
     } ,
      {
       "projectName": "Web Projects",
-      "coverImage": "src/charada.png",
+      "coverImage": "src/wordle.jpg",
       "projects": [
         {
           "projectTitle": "Wordle",
