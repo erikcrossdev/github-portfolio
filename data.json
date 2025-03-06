@@ -216,7 +216,7 @@
     },
     {
       "projectName": "Unreal Engine/C++/ Blueprints Studies",
-      "coverImage": "src/unreal.png",
+      "coverImage": "src/crypt.png",
       "projects": [
         {
           "projectTitle": "Remnants of Nightfall",
@@ -231,7 +231,8 @@
           "targetPlatform": "PC",
           "technologies": ["Unreal Engine 5", "C++", "Blueprints"],
           "description": "This project was developed following the course: Unreal Engine 5 C++ Developer: Learn C++ & Make Video Games. Developing this game helped me learn concepts such as: <ul><li>Actor Componetns and Scene Components on C++ and Blueprint. </li><li>Line Tracing and Collisions on C++. </li><li>Calling C++ functions from Blueprint</li><li>Review C++ Pointers and References</li></ul>",
-          "embeddedVideoYoutube": "https://www.youtube.com/embed/ggDUn5n7eOM?si=t9jZwSROig2b4LEL"
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/ggDUn5n7eOM?si=t9jZwSROig2b4LEL",
+          "downloadLink": "https://utopia-game-studio.itch.io/crypt-raider"
         },
         {
           "projectTitle": "A Living Nightmare",
