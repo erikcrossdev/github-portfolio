@@ -169,10 +169,11 @@
         },
         {
           "projectTitle": "Wordle",
-          "targetPlatform": "Web",
+          "targetPlatform": "Web/Browser",
           "technologies": ["Javascript", "CSS", "HTML"],
-          "description": "This project was developed in a Multiplatform Programming Course at College, using CSS, HTML and Javascript",
-          "embeddedVideoYoutube": "https://www.youtube.com/embed/WqDd7z02Ueo?si=ob3GQdJW9ICaXSCZ"
+          "description": "This project was developed in a Multiplatform Programming Course at College, using CSS, HTML and Javascript. You can play this game using the link <a href='https://erikcrossdev.github.io/charada/'>here</a>.",
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/WqDd7z02Ueo?si=ob3GQdJW9ICaXSCZ",
+          "downloadLink": "https://erikcrossdev.github.io/charada/"
         },
 
         {
@@ -318,14 +319,15 @@
     } ,
      {
       "projectName": "Web Projects",
-      "coverImage": "src/wordle.jpg",
+      "coverImage": "src/charada.png",
       "projects": [
         {
           "projectTitle": "Wordle",
           "targetPlatform": "Web/Browser",
           "technologies": ["Javascript", "CSS", "HTML"],
-          "description": "This project was developed in a Multiplatform Programming Course at College, using CSS, HTML and Javascript.",
-          "embeddedVideoYoutube": "https://www.youtube.com/embed/WqDd7z02Ueo?si=ob3GQdJW9ICaXSCZ"
+          "description": "This project was developed in a Multiplatform Programming Course at College, using CSS, HTML and Javascript. You can play this game using the link <a href='https://erikcrossdev.github.io/charada/'>here</a>.",
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/WqDd7z02Ueo?si=ob3GQdJW9ICaXSCZ",
+          "downloadLink": "https://erikcrossdev.github.io/charada/"
         }
         
       ]
