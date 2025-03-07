@@ -35,14 +35,29 @@ main {
 }
 
 
-footer{
+.footer{
+  display: flex;
+  justify-content: center;
   background-color: #0e0e0e;
   color: white;
-  padding: 1rem;
+ 
+}
+footer {  
+  padding: 3rem;
   text-align: center;
+  gap: 80px; /* Adiciona o espaçamento entre as imagens */
+  display: flex;
 }
 
 
+.social{
+  height: 50px; /* Define a altura das imagens para 10px */
+  width: auto; /* Ajusta a largura automaticamente para manter a proporção */
+}
+
+.social:hover {
+  filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(180deg); /* Ajusta a cor da imagem */
+}
 
 .container {
   display: flex;

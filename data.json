@@ -3,7 +3,7 @@
     "name": "Erik Cruz de Oliveira",
     "image": "src/erik.png",
     "title": "Game Developer | C# | Unity | C++| Unreal | C# Unity Programmer at Edify Education",
-    "description": "My name is Erik, and I’m a game programmer based in Porto Alegre, Brazil. I began my programming journey with <strong>C++</strong>, <strong>C#</strong>, and <strong>PHP</strong>, and have been deeply involved with <strong>Unity Engine</strong>, studying it since 2015 and working professionally with the engine since 2016. Throughout my career, I’ve worked on multiplayer games (using Unity’s <strong>HLAPI</strong>, <strong>Mirror HLAPI</strong>, and <strong>Photon PUN</strong>), VR games for <strong>Oculus Go</strong>, and integration with <strong>JavaScript</strong>, <strong>TypeScript</strong>, <strong>Prisma</strong>, <strong>GraphQL</strong>, <strong>AWS Lambda</strong>, <strong>GameSparks</strong>, and <strong>Steamworks.NET</strong>. I was actively involved in features including UI/UX programming, gameplay development, and tools creation. Academically, I’ve had the chance to explore <strong>Unity</strong>, <strong>C++</strong>, <strong>Data structures</strong>, <strong>Physics</strong>, <strong>AR with Vuforia</strong>, <strong>Phaser with Ionic</strong>, <strong>Arduino</strong>, <strong>Unreal Engine 4 and 5</strong>, <strong>Computer Graphics using OpenGL</strong>, and <strong>3D math</strong>. Some of my recent projects include <strong><a href='https://store.steampowered.com/app/633080/Relic_Hunters_Legend/'>Relic Hunters: Legend</a></strong> (a multiplayer shooter-looter), <strong><a href='https://edifyeducation.com.br/edify-play/'>Edify Play</a></strong> (a mobile/WebGL educational game), and <strong><a href='https://utopia-game-studio.itch.io/remnants-of-nightfall'>Remnants of Nightfall</a></strong> (my final college project developed in Unreal Engine 5)."
+    "description": "My name is Erik, and I’m a game programmer based in Porto Alegre, Brazil. I began my programming journey with <strong>C++</strong>, <strong>C#</strong>, and <strong>PHP</strong>, and have been deeply involved with <strong>Unity Engine</strong>, studying it since 2015 and working professionally with the engine since 2016. Throughout my career, I’ve worked on multiplayer games (using Unity’s <strong>HLAPI</strong>, <strong>Mirror HLAPI</strong>, and <strong>Photon PUN</strong>), VR games for <strong>Oculus Go</strong>, and integration with <strong>JavaScript</strong>, <strong>TypeScript</strong>, <strong>Prisma</strong>, <strong>GraphQL</strong>, <strong>AWS Lambda</strong>, <strong>GameSparks</strong>, and <strong>Steamworks.NET</strong>. I was actively involved in features including UI/UX programming, gameplay development, and tools creation. Academically, I’ve had the chance to explore <strong>Unity</strong>, <strong>C++</strong>, <strong>Data structures</strong>, <strong>Physics</strong>, <strong>AR with Vuforia</strong>, <strong>Phaser with Ionic</strong>, <strong>Arduino</strong>, <strong>Unreal Engine 4 and 5</strong>, <strong>Computer Graphics using OpenGL</strong>, and <strong>3D math</strong>. Some of my recent projects include <strong><a href='https://store.steampowered.com/app/633080/Relic_Hunters_Legend/' target='_blank'>Relic Hunters: Legend</a></strong> (a multiplayer shooter-looter), <strong><a href='https://edifyeducation.com.br/edify-play/' target='_blank'>Edify Play</a></strong> (a mobile/WebGL educational game), and <strong><a href='https://utopia-game-studio.itch.io/remnants-of-nightfall' target='_blank'>Remnants of Nightfall</a></strong> (my final college project developed in Unreal Engine 5)."
   },
   "gallery": [
     {
@@ -112,7 +112,7 @@
     {
       "projectName": "College Projects",
       "coverImage": "src/college.png",
-      "description": "The listed projects were developed during my Bachelor's Degree in Digital Games at <a href='https://www.unisinos.br/graduacao/jogos-digitais/porto-alegre'>Unisinos</a> and my Technical Degree in Game Programming at <a href='https://www.unifteconline.com.br/'>FTEC</a>.",
+      "description": "The listed projects were developed during my Bachelor's Degree in Digital Games at <a href='https://www.unisinos.br/graduacao/jogos-digitais/porto-alegre' target='_blank'>Unisinos</a> and my Technical Degree in Game Programming at <a href='https://www.unifteconline.com.br/' target='_blank'>FTEC</a>.",
       "projects": [
         {
           "projectTitle": "Remnants of Nightfall",
@@ -171,7 +171,7 @@
           "projectTitle": "Wordle",
           "targetPlatform": "Web/Browser",
           "technologies": ["Javascript", "CSS", "HTML"],
-          "description": "This project was developed in a Multiplatform Programming Course at College, using CSS, HTML and Javascript. You can play this game using the link <a href='https://erikcrossdev.github.io/charada/'>here</a>.",
+          "description": "This project was developed in a Multiplatform Programming Course at College, using CSS, HTML and Javascript. You can play this game using the link <a href='https://erikcrossdev.github.io/charada/' target='_blank'>here</a>.",
           "embeddedVideoYoutube": "https://www.youtube.com/embed/WqDd7z02Ueo?si=ob3GQdJW9ICaXSCZ",
           "downloadLink": "https://erikcrossdev.github.io/charada/"
         },
@@ -283,7 +283,7 @@
           "targetPlatform": "Web",
           "coverImage":"src/bunny.gif",
           "technologies": ["Javascript", "CSS", "HTML"],
-          "description": "Using HLSL, ShaderLab and Unity, I created several Shader effects during the course <a href='https://www.udemy.com/course/unity-shaders/?srsltid=AfmBOopqc-Oh95oFcWy0zDlMeXjYGy3I3yyn5WWkduhjpl74RrcX5mTR'>Shader Development from Scratch with Cg</a>.<br> Check all the Shaders created at my <a href='https://www.behance.net/gallery/83409449/Unity-Shaders-Study'>Behance page</a>.",
+          "description": "Using HLSL, ShaderLab and Unity, I created several Shader effects during the course <a href='https://www.udemy.com/course/unity-shaders/?srsltid=AfmBOopqc-Oh95oFcWy0zDlMeXjYGy3I3yyn5WWkduhjpl74RrcX5mTR' target='_blank'>Shader Development from Scratch with Cg</a>.<br> Check all the Shaders created at my <a href='https://www.behance.net/gallery/83409449/Unity-Shaders-Study' target='_blank'>Behance page</a>.",
           "downloadLink": "https://store.steampowered.com/app/example1"
         }
       ]
@@ -326,7 +326,7 @@
           "projectTitle": "Wordle",
           "targetPlatform": "Web/Browser",
           "technologies": ["Javascript", "CSS", "HTML"],
-          "description": "This project was developed in a Multiplatform Programming Course at College, using CSS, HTML and Javascript. You can play this game using the link <a href='https://erikcrossdev.github.io/charada/'>here</a>.",
+          "description": "This project was developed in a Multiplatform Programming Course at College, using CSS, HTML and Javascript. You can play this game using the link <a href='https://erikcrossdev.github.io/charada/' target='_blank'>here</a>.",
           "embeddedVideoYoutube": "https://www.youtube.com/embed/WqDd7z02Ueo?si=ob3GQdJW9ICaXSCZ",
           "downloadLink": "https://erikcrossdev.github.io/charada/"
         }
