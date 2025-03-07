@@ -13,12 +13,13 @@ fetch("data.json")
     // Atualizar a seção "about-me"
     const aboutMeSection = document.getElementById("about-me");
     if (aboutMeSection) {
-        aboutMeSection.querySelector("h1").textContent = aboutMe.name;
+        const titleElement = aboutMeSection.querySelector("h3"); // Ajuste para o correto
+        if (titleElement) titleElement.textContent = aboutMe.title;
+
+        aboutMeSection.querySelector("p").innerHTML = aboutMe.description;
         const aboutMeImage = aboutMeSection.querySelector("img");
         aboutMeImage.src = aboutMe.image;
         aboutMeImage.alt = `${aboutMe.name} Picture`;
-        aboutMeSection.querySelector("h3").textContent = aboutMe.title;
-        aboutMeSection.querySelector("p").textContent = aboutMe.description;
     }
 
     // Função para exibir o pop-up com detalhes dos projetos de uma categoria

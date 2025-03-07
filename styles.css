@@ -5,6 +5,13 @@ body {
   background-color: #565454;
 }
 
+/* global links config */
+a {
+  color: rgb(125, 141, 173); /* Escolha a cor desejada */
+  font-weight: bold; /* Negrito */
+  font-style: italic; /* Itálico */
+}
+
 header {
   background-color: #0e0e0e;
   color: white;
@@ -18,14 +25,55 @@ main {
   padding: 2rem;
 }
 
-#about-me {
-  text-align: center;
+.about-me {
+  padding: 10px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 1rem;
   margin-bottom: 1rem;
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+
+footer{
+  background-color: #0e0e0e;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 30px; /* Espaçamento entre imagem e texto */
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.profile-img {
+  width: 200px;
+  height: auto;
+  border-radius: 40%;
+}
+
+.text-content {
+  flex: 1;
+}
+
+/* 📌 RESPONSIVIDADE */
+@media (max-width: 1460px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-img {
+    width: 120px;
+  }
+}
+
 
 #about-me h1 {
   text-align: left;
@@ -93,7 +141,7 @@ main {
 
 .GalleryElement {
   background-color: #75787a;
-  border-radius: 5px;
+  border-radius: 20px;
   margin: 0;
   padding: 0.5rem;
   text-align: center;
@@ -102,8 +150,19 @@ main {
   min-width: 200px;
 }
 
+.GalleryElement:hover {
+  background-color: #1b1b1d; /* Altere para a cor desejada */
+  transition: background-color 0.3s ease-in-out; /* Efeito suave na transição */
+  color:rgba(0, 0, 0, 0.1);
+}
+
 .GalleryElement h3 {
   color: #ebe5e5;
+}
+
+.GalleryElement img {
+  color: #ebe5e5;
+  padding-bottom: 5px;
 }
 
 #gallery img:hover {
