@@ -15,7 +15,7 @@
           "projectTitle": "Edify Play",
           "targetPlatform": "iOS, Android, WebGL",
           "technologies": ["Unity", "C#", "GraphQL", "Typescript", "Prisma", "React"],
-          "description": "<b>Edify Play</b> is a gamified platform focused on teaching English to children and teenagers. In this project, I worked on features such as: <ul> <li>Implemented <strong>character skins</strong></li> <li>Created <strong>new activity tracks</strong></li><li>Developed and optimized <strong>UI/UX programming</strong></li>   <li>Integrated with the backend using <strong>GraphQL</strong> to update player data and load activities from the activity editor</li>    <li>Developed <strong>new game modes</strong></li>    <li>Performed <strong>general codebase maintenance</strong> including bug fixes and implementing new features</li>    <li>Worked on backend features using <strong>TypeScript, React, Node.js, Prisma, and GraphQL</strong></li> <li>Worked with <strong>native features</strong> for <strong>Android, WebGL, and iOS</strong></li> <li>Implemented and maintained <strong>Unity Cloud features</strong>, including <strong>build automation</strong> and <strong>Remote Config</strong></li></ul>",
+          "description": "<b>Edify Play</b> is a gamified platform focused on teaching English to children and teenagers. In this project, I worked on features such as: <ul> <li>Implemented <strong>character skins</strong> using <strong>Unity 2DAnimation</strong></li> <li>Created <strong>new activity tracks</strong></li><li>Developed and optimized <strong>UI/UX programming</strong></li>   <li>Integrated with the backend using <strong>GraphQL</strong> to update player data and load activities from the activity editor</li>    <li>Developed <strong>new game modes</strong></li>    <li>Performed <strong>general codebase maintenance</strong> including bug fixes and implementing new features</li>    <li>Worked on backend features using <strong>TypeScript, React, Node.js, Prisma, and GraphQL</strong></li> <li>Worked with <strong>native features</strong> for <strong>Android, WebGL, and iOS</strong></li> <li>Implemented and maintained <strong>Unity Cloud features</strong>, including <strong>build automation</strong> and <strong>Remote Config</strong></li></ul>",
           "embeddedVideoYoutube": "https://www.youtube.com/embed/-wPZqfPr2OU?si=CdvQknmQ5M2yZlT4",
           "downloadLink": "https://edifyeducation.com.br/edify-play/"
         }
@@ -39,6 +39,7 @@
     {
       "projectName": "Freelancer Projects",
       "coverImage": "src/vr.png",
+      "description": "Projects that I worked as a freelancer developer.",
       "projects": [
         {
           "projectTitle": "Risk Perception Simulators",
@@ -226,8 +227,9 @@
       ]
     },
     {
-      "projectName": "Unreal Engine/C++/ Blueprints Studies",
+      "projectName": "Unreal Engine/C++/ Blueprints Studies",      
       "coverImage": "src/crypt.png",
+      "description": "The following projects were developed as college projects and following the courses <a href='https://www.udemy.com/course/unrealcourse/?couponCode=ST1MT31025G3'>Unreal Engine 5 C++ Developer: Learn C++ & Make Video Games</a> and <a href='https://www.udemy.com/course/unreal-engine-5-complete-beginner-course/?couponCode=ST1MT31025G3'>Unreal Engine 5 - Beginner Course</a> using Blueprints and C++.",
       "projects": [
         {
           "projectTitle": "Remnants of Nightfall",
@@ -275,6 +277,7 @@
     {
       "projectName": "Working at Fastmania",
       "coverImage": "src/anubis.png",
+      "description": "<strong>Fastmania</strong> is a company focused in slot machine games. At Fastmania I worked as an intern and also the sole developer of the project <strong>The Anubis' Treasure</strong>.",
       "projects": [
         {
           "projectTitle": "The Anubis' treasure",
@@ -288,6 +291,7 @@
     {
       "projectName": "Shader Development Studies",
       "coverImage": "src/shader.png",
+      "description": "The following shaders were developed during the course <a href='https://www.udemy.com/course/unity-shaders/?srsltid=AfmBOopqc-Oh95oFcWy0zDlMeXjYGy3I3yyn5WWkduhjpl74RrcX5mTR' target='_blank'>Shader Development from Scratch with Cg</a> and during my free time in order to achieve different visual effects using <strong>Unity's ShaderLab</strong> and with <strong>CG/HLSL</strong>.",
       "projects": [
         {
           "projectTitle": "Shader Studies",
