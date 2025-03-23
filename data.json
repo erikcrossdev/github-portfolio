@@ -227,6 +227,14 @@
           "downloadLink": "https://utopia-game-studio.itch.io/remnants-of-nightfall"
         },
         {
+          "projectTitle": "Toon Tanks",
+          "targetPlatform": "PC",
+          "technologies": ["Unreal Engine 5", "C++", "Blueprints"],
+          "description": "This project was developed following the course: Unreal Engine 5 C++ Developer: Learn C++ & Make Video Games. Developing this game helped me learn concepts such as: <ul><li>Handle input using Enhanced Input in UE5</li><li>Creating Components using C++</li><li>Creating Base Classes in C++ and Deriving Blueprint Classes</li><li>Adding UI using Blueprint and C++</li><li>Using Hit Events, Projectile Movement Component, Camera Shakes</li><li>Adding SFX, VFX and Camera Shakes.</li></ul> ",
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/Y5vLFsNLlIw?si=Ys8Du4hn64-Mcf1p",
+          "downloadLink": "http://utopia-game-studio.itch.io/toon-tanks"
+        },
+        {
           "projectTitle": "Crypt Raider",
           "targetPlatform": "PC",
           "technologies": ["Unreal Engine 5", "C++", "Blueprints"],
