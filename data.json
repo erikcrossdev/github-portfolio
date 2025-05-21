@@ -240,6 +240,14 @@
           "downloadLink": "https://utopia-game-studio.itch.io/remnants-of-nightfall"
         },
         {
+          "projectTitle": "Third Person Shooter",
+          "targetPlatform": "PC",
+          "technologies": ["Unreal Engine 5", "C++", "Blueprints"],
+          "description": "This project was developed following the course: Unreal Engine 5 C++ Developer: Learn C++ & Make Video Games. Developing this game helped me learn concepts such as: <ul><li>Handle input using Enhanced Input in UE5</li><li>Using Pawn, Character, Controller, World and Game Mode classes from Gramplay Framework</li><li>Unreal AI Features: Behavior Trees, Blackboards, BT Services and BT Tasks</li><li>Adding UI using Widget Blueprints</li><li>Adding Character animations using Animation Blueprints, State Machines 2D Blend Spaces, Aim Offsets and hooking up with input parameters</li><li>Spawning Particle Effects and using Line Trace By Channel to detect collision</li><li>Adding Sound Cues with random SFX</li><li>Adding Sockets on Skeletons and using Character Movement</li></ul>",
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/YiQCbZNyqWY?si=y4YgFaIPHmoPEKKJ",
+          "downloadLink":"https://utopia-game-studio.itch.io/third-person-shooter"
+        },
+        {
           "projectTitle": "Toon Tanks",
           "targetPlatform": "PC",
           "technologies": ["Unreal Engine 5", "C++", "Blueprints"],
