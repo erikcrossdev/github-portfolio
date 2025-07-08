@@ -247,6 +247,14 @@
           "embeddedVideoYoutube": "https://www.youtube.com/embed/YiQCbZNyqWY?si=y4YgFaIPHmoPEKKJ",
           "downloadLink":"https://utopia-game-studio.itch.io/third-person-shooter"
         },
+         {
+          "projectTitle": "Coop Adventure",
+          "targetPlatform": "PC",
+          "technologies": ["Unreal Engine 5", "C++", "Blueprints"],
+          "description": "This project was developed following the course: Unreal Engine 5 C++ Multiplayer: Make An Online Co-op Game. Developing this game helped me learn concepts such as: <ul><li>Multiplayer Fundamentals: NetMode, RPCs, Replication, Rep Notifies, RPC Validation, Client and Server RPC</li><li>Using the Online Subsystem</li><li>Create Game and Join Game menus and features</li><li>Creating Gameplay components like movable platforms, pressure plates, movable boxes, keys, and doors using components and actors</li><li>Adding Level Design</li></ul><br> Also, feel free to check my <a href='https://github.com/erikcrossdev/CoopAdventure'>Github Repository</a>",
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/0TfrAKjpR10?si=1GCWWa-iTVpm97dz",
+          "downloadLink":"https://utopia-game-studio.itch.io/coop-adventure"
+        },
         {
           "projectTitle": "Toon Tanks",
           "targetPlatform": "PC",
