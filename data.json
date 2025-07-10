@@ -307,8 +307,8 @@
           "projectTitle": "Boids - Multithreading (Job System)",
           "targetPlatform": "PC",
           "technologies": ["Unity", "C#", "Job System", "Burst Compiler"],
-          "description": "This project was developed in just one day of study. It is based the  artificial life program created by Craig Reynolds in 1986, which simulates the flocking behaviour of birds. In this project I used Unity's Job System and Burst Compiler to optimize the performance of the flocking algorithm to maintain the FPS smooth. Feel free to check my <a href='https://github.com/erikcrossdev/BoidsSimulationJobSystem' target='_blank'>Github Repository</a>.",
-          "embeddedVideoYoutube": "https://www.youtube.com/embed/DaM4X9WkwYM?si=Cf8pKPYibGRHfJ18",
+          "description": "This project was developed in just one day of study. It is based the  artificial life program created by Craig Reynolds in 1986, which simulates the flocking behaviour of birds. In this project I used Unity's Job System and Burst Compiler to optimize the performance of the flocking algorithm to maintain the FPS smooth. There are 3000 fishes and the user can change some parameters in the simulation in real time. Feel free to check my <a href='https://github.com/erikcrossdev/BoidsSimulationJobSystem' target='_blank'>Github Repository</a>.",
+          "embeddedVideoYoutube": "https://www.youtube.com/embed/DxAuxXRxf-o?si=--zLriSfWut5f4NP",
           "downloadLink": "https://utopia-game-studio.itch.io/boids-fish-simulation"
         }
       ]
