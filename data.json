@@ -1,0 +1,407 @@
+{
+  "aboutMe": {
+    "name": "Erik Cruz de Oliveira",
+    "image": "src/erik.png",
+    "title": "Game Developer | C# | Unity | C++| Unreal | C# Unity Programmer at Edify Education",
+    "description": "My name is Erik, and I’m a game programmer based in Porto Alegre, Brazil. I began my programming journey with <strong>C++</strong>, <strong>C#</strong>, and <strong>PHP</strong>, and have been deeply involved with <strong>Unity Engine</strong>, studying it since 2015 and working professionally with the engine since 2016. Throughout my career, I’ve worked on multiplayer games (using Unity’s <strong>HLAPI</strong>, <strong>Mirror HLAPI</strong>, and <strong>Photon PUN</strong>), VR games for <strong>Oculus Go</strong>, and integration with <strong>JavaScript</strong>, <strong>TypeScript</strong>, <strong>Prisma</strong>, <strong>GraphQL</strong>, <strong>AWS Lambda</strong>, <strong>GameSparks</strong>, and <strong>Steamworks.NET</strong>. I was actively involved in features including UI/UX programming, gameplay development, and tools creation. Academically, I’ve had the chance to explore <strong>Unity</strong>, <strong>C++</strong>, <strong>Data structures</strong>, <strong>Physics</strong>, <strong>AR with Vuforia</strong>, <strong>Phaser with Ionic</strong>, <strong>Arduino</strong>, <strong>Unreal Engine 4 and 5</strong>, <strong>Computer Graphics using OpenGL</strong>, and <strong>3D math</strong>. Some of my recent projects include <strong><a href='https://store.steampowered.com/app/633080/Relic_Hunters_Legend/' target='_blank'>Relic Hunters: Legend</a></strong> (a multiplayer shooter-looter), <strong><a href='https://edifyeducation.com.br/edify-play/' target='_blank'>Edify Play</a></strong> (a mobile/WebGL educational game), and <strong><a href='https://utopia-game-studio.itch.io/remnants-of-nightfall' target='_blank'>Remnants of Nightfall</a></strong> (my final college project developed in Unreal Engine 5)."
+  },
+    "gallery": [
+        {
+            "projectName": "Working at Edify Education",
+            "coverImage": "src/edify.png",
+            "description": "Edify Education is a company focused on creating a bilingual generation in Brazil. At Edify Education, I worked on the game/platform Edify Play, contributing to its release and maintaining new features.",
+            "projects": [
+                {
+                    "projectTitle": "Edify Play",
+                    "targetPlatform": "iOS, Android, WebGL",
+                    "technologies": [ "Unity", "C#", "GraphQL", "Typescript", "Prisma", "React" ],
+                    "description": "<b>Edify Play</b> is a gamified platform focused on teaching English to children and teenagers. In this project, I worked on features such as: <ul> <li>Implemented <strong>character skins</strong> using <strong>Unity 2DAnimation</strong></li> <li>Created <strong>new activity tracks</strong></li><li>Developed and optimized <strong>UI/UX programming</strong></li>   <li>Integrated with the backend using <strong>GraphQL</strong> to update player data and load activities from the activity editor</li>    <li>Developed <strong>new game modes</strong></li>    <li>Performed <strong>general codebase maintenance</strong> including bug fixes and implementing new features</li>    <li>Worked on backend features using <strong>TypeScript, React, Node.js, Prisma, and GraphQL</strong></li> <li>Worked with <strong>native features</strong> for <strong>Android, WebGL, and iOS</strong></li> <li>Implemented and maintained <strong>Unity Cloud features</strong>, including <strong>build automation</strong> and <strong>Remote Config</strong></li></ul>",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/-wPZqfPr2OU?si=CdvQknmQ5M2yZlT4",
+                    "downloadLink": "https://edifyeducation.com.br/edify-play/"
+                }
+            ]
+        },
+        {
+            "projectName": "Working at Rogue Snail",
+            "coverImage": "src/rogue.jpg",
+            "description": "Rogue Snail is a fully remote game studio from Brazil. We have fully embraced remote work. At Rogue Snail I worked on the game Relic Hunters: Legends for about four years.",
+            "projects": [
+                {
+                    "projectTitle": "Relic Hunters: Legend",
+                    "targetPlatform": "PC (Steam)",
+                    "technologies": [ "Unity", "C#", "HLSL", "Javascript", "AWS", "Photon PUN" ],
+                    "description": "Fast. Fluid. Fun. Free. An online cooperative Shooter/Looter/RPG. Gather up to 4 friends, gear up, and save the Galaxy from a terrible villain who has stolen the past! <br>In Relic Hunters: Legends, I developed features such as: <br><ul><li>Developing narrative tools extending from <strong>Fungus Package</strong> to empower the narrative designer team with in-game cutscenes creation</li> <li>Creating new enemies and improving the <strong>character skill system</strong></li><li>Party system features using <strong>Steamworks.NET</strong>, including invites, retrieving Steam friends, displaying the friend list, and programming the Party System's UI/UX</li><li>New <strong>game modes</strong> and maintaining older game modes as a Gameplay Programmer</li> <li>Addressing multiplayer synchronization issues using <strong>Photon PUN</strong></li><li>Implementing backend features using <strong>JavaScript, AWS Lambda, Gamesparks, and DynamoDB</strong> for features such as collectible chests and game mode aspects involving backend</li> <li>Dealing with IA and runtime navigation baking</li><li>Creating <strong>custom shader</strong> effects such as Silhouette effects</li></ul>",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/E887NTEaAEQ?si=Y1Y8ybxcggSSdcV9",
+                    "downloadLink": "https://store.steampowered.com/app/633080/Relic_Hunters_Legend/"
+                }
+            ]
+        },
+        {
+            "projectName": "Working with AlpaK' Games",
+            "coverImage": "src/palmares.jpg",
+            "description": "AlpaK' Games is an indie studio focused on creating games for steam using Unreal Engine.",
+            "projects": [
+                {
+                    "projectTitle": "QuilomboZ: Palmares",
+                    "targetPlatform": "PC (Steam)",
+                    "technologies": [ "Unreal Engine 5", "C++", "Blueprints"],
+                    "description": "Lead elite warriors like Zumbi and Dandara in a real-time tactics game to defend the legendary Quilombo dos Palmares. Use stealth, terrain, and coordinated abilities to outsmart Portuguese forces and mercenaries. Channel Orisha powers through the Axé system to overcome overwhelming challenges. <br>In Relic Hunters: Legends, I developed features such as: <br><ul><li>UI/UX programming and design implementation using Widget Blueprints</li><li>Adding VFX using custom materials, shaders and post processing</li><li>Expanding C++ and Blueprint codebase</li></ul>",
+                    "embeddedVideoYoutube": "https://www.youtube.com/watch?v=otAyVBbglyU",
+                    "downloadLink": "https://store.steampowered.com/app/4596660/QuilomboZ_Palmares/"
+                }
+            ]
+        },
+        {
+            "projectName": "Freelancer Projects",
+            "coverImage": "src/vr.png",
+            "description": "Projects that I worked as a freelancer developer.",
+            "projects": [
+                {
+                    "projectTitle": "Risk Perception Simulators",
+                    "targetPlatform": "VR, Oculus Go.",
+                    "technologies": [ "Unity", "C#", "Oculus Go" ],
+                    "description": "In this project I created new features and also was responsible for porting a mobile/cardboard VR game into Oculus Go Platform. ",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/Z_2Pfa8VL3Y?si=OPBmEm95cqb66eFH",
+                    "downloadLink": "http://nexo.art.br/#section-89"
+                },
+                {
+                    "projectTitle": "Surgical Instruments Simulator",
+                    "targetPlatform": "Android",
+                    "technologies": [ "Unity", "C#" ],
+                    "description": "This project was a client's request to help train nurses with surgery preparation. I worked as a programmer, producer and 2D artist. ",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/Wjsde6zy3GY?si=3M5-cz2GqkzHjDYz"
+                },
+                {
+                    "projectTitle": "Zamba Ben",
+                    "targetPlatform": "Android, iOS",
+                    "technologies": [ "Unity", "C#" ],
+                    "description": "This game was developed by <strong>Epopeia</strong> and I worked as a freelancer adding some features:<ul><li>Added a new level</li><li>Created Tools to empower the Game designer balancing levels and the velocity of falling symbols</li><li>Pause Menu feature</li><li>Add Damage Sprites on Colliding with some symbols</li></ul> ",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/6bOMcOBcaIw?si=U5N_xDzgflhH8wlt"
+                }
+            ]
+        },
+        {
+            "projectName": "Indie Projects",
+            "coverImage": "src/prison.png",
+            "description": "The listed projects were developed as Independent projects. Most of them were made by my indie company <strong>Utopia Game Studio</strong>",
+            "projects": [
+                {
+                    "projectTitle": "Prison Island",
+                    "targetPlatform": "PC, Unity",
+                    "technologies": [ "Unity", "C#" ],
+                    "description": "Prison Island is a horror game in first person based on true events. In this game, I worked as a producer, sole programmer, game designer and 2D artist. ",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/hC5tU5ynhRw?si=JZUBBrZdPUMMTUpo",
+                    "downloadLink": "https://gamejolt.com/games/prisonIsland/268501"
+                },
+                {
+                    "projectTitle": "Remnants of Nightfall",
+                    "targetPlatform": "PC",
+                    "technologies": [ "Unreal Engine 5", "C++", "Blueprints" ],
+                    "description": "A outbreak just started! A small town needs to protected themselves and wait for rescue to come. Infecteds are all over the place! There is hope: they can't resist the daylight, but they can thrive at night. Remnants Of Nightfall is a strategy-shooter tower-defense. It was my final project in my undergraduate program in Digital Games at Unisinos.",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/XYUbZPeMfIk?si=-Jn0ygjXqyTu9OTf",
+                    "downloadLink": "https://utopia-game-studio.itch.io/remnants-of-nightfall"
+                },
+                {
+                    "projectTitle": "A Living Nightmare",
+                    "targetPlatform": "PC",
+                    "technologies": [ "Unreal Engine 4", "Blueprints" ],
+                    "description": "This was my first Unreal Engine project. A Living Nightmare is a psychological stealth horror game. I worked as the main programmer and also as game designer and 2D artist",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/GjQ3Hty4UcM?si=RmsWLHKf9r4CmtF5",
+                    "downloadLink": "https://gamejolt.com/games/AlivingNightmare/423882"
+                },
+                {
+                    "projectTitle": "Pigeon Poop",
+                    "targetPlatform": "Android",
+                    "technologies": [ "Unity", "C#" ],
+                    "description": "This project was a casual mobile game made in my free time. I worked as a programmer, 2D artist, animator and game designer.",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/Plwb4ihgzGA?si=PBHSEKL_YzL6d7TT"
+                },
+                {
+                    "projectTitle": "Cemetery Battle",
+                    "targetPlatform": "PC",
+                    "technologies": [ "Unity", "C#", "HLSL" ],
+                    "description": "This project was made in my spare time in one week of development. I worked as a programmer and developed the drop items' shaders. ",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/V4H_2rDMU_g?si=pPtBT4lVwM1WTraT"
+                }
+            ]
+        },
+        {
+            "projectName": "College Projects",
+            "coverImage": "src/college.png",
+            "description": "The listed projects were developed during my Bachelor's Degree in Digital Games at <a href='https://www.unisinos.br/graduacao/jogos-digitais/porto-alegre' target='_blank'>Unisinos</a> and my Technical Degree in Game Programming at <a href='https://www.unifteconline.com.br/' target='_blank'>FTEC</a>.",
+            "projects": [
+                {
+                    "projectTitle": "Remnants of Nightfall",
+                    "targetPlatform": "PC",
+                    "technologies": [ "Unreal Engine 5", "C++", "Blueprints" ],
+                    "description": "A outbreak just started! A small town needs to protected themselves and wait for rescue to come. Infecteds are all over the place! There is hope: they can't resist the daylight, but they can thrive at night. Remnants Of Nightfall is a strategy-shooter tower-defense. It was my final project in my undergraduate program in Digital Games at Unisinos.",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/XYUbZPeMfIk?si=-Jn0ygjXqyTu9OTf",
+                    "downloadLink": "https://utopia-game-studio.itch.io/remnants-of-nightfall"
+                },
+                {
+                    "projectTitle": "A Living Nightmare",
+                    "targetPlatform": "PC",
+                    "technologies": [ "Unreal Engine 4", "Blueprints" ],
+                    "description": "This was my first Unreal Engine project. A Living Nightmare is a psychological stealth horror game. I worked as the main programmer and also as game designer and 2D artist",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/GjQ3Hty4UcM?si=RmsWLHKf9r4CmtF5",
+                    "downloadLink": "https://gamejolt.com/games/AlivingNightmare/423882"
+                },
+                {
+                    "projectTitle": "For Valhalla",
+                    "targetPlatform": "PC",
+                    "technologies": [ "Unity", "C#", "Mobile" ],
+                    "description": "Protect your base and survive the Ragnarok with a friend in this collaborative multiplayer. Choose to play as a Warrior or a blacksmith Dwarf with unique abilities. In this project I worked as programmer, 2D Artist and game designer.",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/4XCCNx7bxoo?si=VFNPY20PI8xPXhJN",
+                    "downloadLink": "https://utopia-game-studio.itch.io/for-valhalla"
+                },
+                {
+                    "projectTitle": "My AR Pet: Tamagotchi",
+                    "targetPlatform": "Android",
+                    "technologies": [ "Unity", "C#", "Vuforia Augmented Reality SDK" ],
+                    "description": "This project was a sort proof of concept of an Tamagotchi App using AR. I was the sole developer and alsoworked as a programmer and 2D artist. ​​​​​​​ ",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/AVec9KkksO8?si=5LJCBOFDTDqnSm5H"
+                },
+                {
+                    "projectTitle": "Fire Practice - Power Glove with Arduino",
+                    "targetPlatform": "PC, Arduino",
+                    "technologies": [ "Unity", "C#", "Vuforia Augmented Reality SDK" ],
+                    "description": "In this project I worked as a programmer, both on Unity client and Arduino code. I designed all the hardware project and assemble it. Fire Practice was an academic project with the purpose to create a unconventional way to capture player input. ",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/oqqlXQRICxc?si=tnMUtAkdXnYrE5CT"
+                },
+                {
+                    "projectTitle": "Battle Net - Using TCP and Sockets",
+                    "targetPlatform": "PC, Arduino",
+                    "technologies": [ "Unity", "C#", "TCP", "Sockets" ],
+                    "description": "In this project I worked as a programmer. This game was a short college project using only TCP and sockets to deal with the whole networking.",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/xzU__0GRrQA?si=ftQU4Fs5kS-_rTEK"
+                },
+                {
+                    "projectTitle": "Zombie Dice",
+                    "targetPlatform": "PC",
+                    "technologies": [ "C++", "LibUnicornio" ],
+                    "description": "Zombie Dice was made in an Algorithms and Programming Logic Using C++ academic discipline. It is a digital version from a dice game with the same name. In this project I worked as a programmer, UI/UX artist.",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/Upfa6H6ZVAA?si=yh4-p7RoESKKhPlv",
+                    "downloadLink": "https://gamejolt.com/games/zombie-dice/149531"
+                },
+                {
+                    "projectTitle": "Wordle",
+                    "targetPlatform": "Web/Browser",
+                    "technologies": [ "Javascript", "CSS", "HTML" ],
+                    "description": "This project was developed in a Multiplatform Programming Course at College, using CSS, HTML and Javascript. You can play this game using the link <a href='https://erikcrossdev.github.io/charada/' target='_blank'>here</a>.",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/WqDd7z02Ueo?si=ob3GQdJW9ICaXSCZ",
+                    "downloadLink": "https://erikcrossdev.github.io/charada/"
+                },
+
+                {
+                    "projectTitle": "Trebuchet",
+                    "targetPlatform": "PC",
+                    "technologies": [ "Unity", "C#" ],
+                    "description": "Trebuchet is a physics based game made in a Physics For Games academic discipline. In this project I worked as a programmer and created some models like the trebuchet itself. This project was a simple college related study about collisions, joints, hinges, cloth physics and force.",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/C0tvOyb-BBQ?si=Ij89ibvXF1rznLwA",
+                    "downloadLink": "https://utopia-game-studio.itch.io/trebuchet"
+                },
+                {
+                    "projectTitle": "Animation Studies: Ragdoll",
+                    "targetPlatform": "PC",
+                    "technologies": [ "Unity", "C#" ],
+                    "description": "An animation study with animation humanoid and non-humanoid ragdolls using Unity Engine. Learn more clicking in the Download link:",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/CL_-gzMPU-0?si=bYTHNNwyLzRR24rb",
+                    "downloadLink": "https://utopia-game-studio.itch.io/animation"
+                },
+                {
+                    "projectTitle": "Animation Studies: Layers",
+                    "targetPlatform": "PC",
+                    "technologies": [ "Unity", "C#" ],
+                    "description": "An animation study layers and transition between animations.  Learn more clicking in the Download link:",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/XmjlcTTFA98?si=Cuu0AXpfwvuR0xdu",
+                    "downloadLink": "https://utopia-game-studio.itch.io/animation"
+                },
+                {
+                    "projectTitle": "Dolly Dance",
+                    "targetPlatform": "PC",
+                    "technologies": [ "Unity", "C#" ],
+                    "description": "This project was a study using music as input and animations and several effects as output. Learn more clicking in the Download link:",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/VBsozjX6UYQ?si=oXV2IuOiRmC_88ML",
+                    "downloadLink": "https://utopia-game-studio.itch.io/dolly-dance"
+                },
+                {
+                    "projectTitle": "3D Mesh Visualization",
+                    "targetPlatform": "PC",
+                    "technologies": [ "Unity", "C#" ],
+                    "description": "In this project, I scanned a real world object using Kiri Engine and then, created a 3D Mesh visualization using Unreal Engine",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/0kA5pMnCiUg?si=rJ32dHGLdP-EUUXD",
+                    "downloadLink": "https://utopia-game-studio.itch.io/3d-mesh-visualization"
+                },
+                {
+                    "projectTitle": "Mama",
+                    "targetPlatform": "PC/Mobile",
+                    "technologies": [ "Unity", "C#" ],
+                    "description": "Mama is a endless runner game study made in two days. I worked as a programmer and artist in this project.",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/Uz5w5QzGS5M?si=t8pIuzBIZ1MgEpG-"
+                }
+            ]
+        },
+        {
+            "projectName": "Unreal Engine/C++/ Blueprints Studies",
+            "coverImage": "src/crypt.png",
+            "description": "The following projects were developed as college projects and following the courses <a href='https://www.udemy.com/course/unrealcourse/?couponCode=ST1MT31025G3'>Unreal Engine 5 C++ Developer: Learn C++ & Make Video Games</a> and <a href='https://www.udemy.com/course/unreal-engine-5-complete-beginner-course/?couponCode=ST1MT31025G3'>Unreal Engine 5 - Beginner Course</a> using Blueprints and C++.",
+            "projects": [
+                {
+                    "projectTitle": "Remnants of Nightfall",
+                    "targetPlatform": "PC",
+                    "technologies": [ "Unreal Engine 5", "C++", "Blueprints" ],
+                    "description": "A outbreak just started! A small town needs to protected themselves and wait for rescue to come. Infecteds are all over the place! There is hope: they can't resist the daylight, but they can thrive at night. Remnants Of Nightfall is a strategy-shooter tower-defense. It was my final project in my undergraduate program in Digital Games at Unisinos.",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/XYUbZPeMfIk?si=-Jn0ygjXqyTu9OTf",
+                    "downloadLink": "https://utopia-game-studio.itch.io/remnants-of-nightfall"
+                },
+                {
+                    "projectTitle": "Third Person Shooter",
+                    "targetPlatform": "PC",
+                    "technologies": [ "Unreal Engine 5", "C++", "Blueprints" ],
+                    "description": "This project was developed following the course: Unreal Engine 5 C++ Developer: Learn C++ & Make Video Games. Developing this game helped me learn concepts such as: <ul><li>Handle input using Enhanced Input in UE5</li><li>Using Pawn, Character, Controller, World and Game Mode classes from Gramplay Framework</li><li>Unreal AI Features: Behavior Trees, Blackboards, BT Services and BT Tasks</li><li>Adding UI using Widget Blueprints</li><li>Adding Character animations using Animation Blueprints, State Machines, 2D Blend Spaces, Aim Offsets and hooking up with gameplay</li><li>Spawning Particle Effects and using Line Trace By Channel to detect collision</li><li>Adding Sound Cues with random SFX</li><li>Character Movement and Gun behavior</li></ul>",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/YiQCbZNyqWY?si=y4YgFaIPHmoPEKKJ",
+                    "downloadLink": "https://utopia-game-studio.itch.io/third-person-shooter"
+                },
+                {
+                    "projectTitle": "Coop Adventure",
+                    "targetPlatform": "PC",
+                    "technologies": [ "Unreal Engine 5", "C++", "Blueprints" ],
+                    "description": "This project was developed following the course: Unreal Engine 5 C++ Multiplayer: Make An Online Co-op Game. Developing this game helped me learn concepts such as: <ul><li>Multiplayer Fundamentals: NetMode, RPCs, Replication, Rep Notifies, RPC Validation, Client and Server RPC</li><li>Using the Online Subsystem</li><li>Create Game and Join Game menus and features</li><li>Creating Gameplay components like movable platforms, pressure plates, movable boxes, keys, and doors using components and actors</li><li>Adding Level Design</li></ul><br> Also, feel free to check my <a href='https://github.com/erikcrossdev/CoopAdventure'>Github Repository</a>",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/0TfrAKjpR10?si=1GCWWa-iTVpm97dz",
+                    "downloadLink": "https://utopia-game-studio.itch.io/coop-adventure"
+                },
+                {
+                    "projectTitle": "Toon Tanks",
+                    "targetPlatform": "PC",
+                    "technologies": [ "Unreal Engine 5", "C++", "Blueprints" ],
+                    "description": "This project was developed following the course: Unreal Engine 5 C++ Developer: Learn C++ & Make Video Games. Developing this game helped me learn concepts such as: <ul><li>Handle input using Enhanced Input in UE5</li><li>Creating Components using C++</li><li>Creating Base Classes in C++ and Deriving Blueprint Classes</li><li>Adding UI using Blueprint and C++</li><li>Using Hit Events, Projectile Movement Component, Camera Shakes</li><li>Adding SFX, VFX and Camera Shakes.</li></ul><br> Also, feel free to check my <a href='https://github.com/erikcrossdev/ToonTanks'>Github Repository</a>",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/Y5vLFsNLlIw?si=Ys8Du4hn64-Mcf1p",
+                    "downloadLink": "http://utopia-game-studio.itch.io/toon-tanks"
+                },
+                {
+                    "projectTitle": "Crypt Raider",
+                    "targetPlatform": "PC",
+                    "technologies": [ "Unreal Engine 5", "C++", "Blueprints" ],
+                    "description": "This project was developed following the course: Unreal Engine 5 C++ Developer: Learn C++ & Make Video Games. Developing this game helped me learn concepts such as: <ul><li>Actor Componetns and Scene Components on C++ and Blueprint. </li><li>Line Tracing and Collisions on C++. </li><li>Calling C++ functions from Blueprint</li><li>Review C++ Pointers and References</li></ul>",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/ggDUn5n7eOM?si=t9jZwSROig2b4LEL",
+                    "downloadLink": "https://utopia-game-studio.itch.io/crypt-raider"
+                },
+                {
+                    "projectTitle": "A Living Nightmare",
+                    "targetPlatform": "PC",
+                    "technologies": [ "Unreal Engine 4", "Blueprints" ],
+                    "description": "This was my first Unreal Engine project. A Living Nightmare is a psychological stealth horror game. I worked as the main programmer and also as game designer and 2D artist",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/GjQ3Hty4UcM?si=RmsWLHKf9r4CmtF5",
+                    "downloadLink": "https://gamejolt.com/games/AlivingNightmare/423882"
+                },
+
+                {
+                    "projectTitle": "Obstacle Assault",
+                    "targetPlatform": "PC",
+                    "technologies": [ "Unreal Engine 5", "C++", "Blueprints" ],
+                    "description": "This project was a study made following the Unreal Engine 5 C++ Developer: Learn C++ & Make Video Games course by  Ben Tristem and GameDev.tv Team at Udemy. In this course I learned to use C++ classes alongside with Blueprints to create different obstacles.Developing this game helped me grasp several concepts such as:<ul><li>C++ syntax with Unreal Engine</li><li>Creating C++ classes in Unreal Engine</li><li>Blueprint child classes of C++</li></ul>",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/1oP-ZWEVa3A?si=v8UxLmQYEI7U-Bod",
+                    "downloadLink": "https://utopia-game-studio.itch.io/obstacle-assault"
+                },
+                {
+                    "projectTitle": "First Person Blueprint Study",
+                    "targetPlatform": "PC",
+                    "technologies": [ "Unreal Engine 5", "Blueprints" ],
+                    "description": "This project was made his project was a study made following the <strong>Unreal Engine 5 - Beginner Course</strong> by 3DCollege. The full course can be accessed at Udemy. Developing this game helped me grasp several concepts such as:<ul><li>Working with actors, Geometry Brushes, Blueprints, Volumes </li><li>Creating gameplay logic using Unreal</li><li>Retrieving gameplay information with UMG</li><li>Basic Blueprint knowledge</li></ul>",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/inEjmVcqv9g?si=KJWtXhVeIa6ynw6E",
+                    "downloadLink": "https://utopia-game-studio.itch.io/thrid-person-platformer-study"
+                }
+            ]
+        },
+        {
+            "projectName": "Optimization Studies",
+            "coverImage": "src/boids.png",
+            "description": "These projects are small Unity Studies that I made while learning optimization concepts like Multithreading, Job System, Burst Compiler, Profiler.",
+            "projects": [
+                {
+                    "projectTitle": "Boids - Multithreading (Job System)",
+                    "targetPlatform": "PC",
+                    "technologies": [ "Unity", "C#", "Job System", "Burst Compiler" ],
+                    "description": "This project was developed in just one day of study. It is based the  artificial life program created by Craig Reynolds in 1986, which simulates the flocking behaviour of birds. In this project I used Unity's Job System and Burst Compiler to optimize the performance of the flocking algorithm to maintain the FPS smooth. There are 3000 fishes and the user can change some parameters in the simulation in real time. Feel free to check my <a href='https://github.com/erikcrossdev/BoidsSimulationJobSystem' target='_blank'>Github Repository</a>.",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/DxAuxXRxf-o?si=--zLriSfWut5f4NP",
+                    "downloadLink": "https://utopia-game-studio.itch.io/boids-fish-simulation"
+                }
+            ]
+        },
+
+        {
+            "projectName": "Working at Fastmania",
+            "coverImage": "src/anubis.png",
+            "description": "<strong>Fastmania</strong> is a company focused in slot machine games. At Fastmania I worked as an intern and also the sole developer of the project <strong>The Anubis' Treasure</strong>.",
+            "projects": [
+                {
+                    "projectTitle": "The Anubis' treasure",
+                    "targetPlatform": "PC",
+                    "technologies": [ "Unity", "C#" ],
+                    "description": "The Anubis' Treasure is a slot game with Ancient Egypt thematics. In this project I worked as the sole programmer and it was my first professional project as a C# Developer Intern. ",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/Nqy73Rr-mko?si=LWKkdZgozwkEkHxj"
+                }
+            ]
+        },
+        {
+            "projectName": "Shader Development Studies",
+            "coverImage": "src/shader.png",
+            "description": "The following shaders were developed during the course <a href='https://www.udemy.com/course/unity-shaders/?srsltid=AfmBOopqc-Oh95oFcWy0zDlMeXjYGy3I3yyn5WWkduhjpl74RrcX5mTR' target='_blank'>Shader Development from Scratch with Cg</a> and during my free time in order to achieve different visual effects using <strong>Unity's ShaderLab</strong> and with <strong>CG/HLSL</strong>.",
+            "projects": [
+                {
+                    "projectTitle": "Shader Studies",
+                    "targetPlatform": "Web",
+                    "coverImage": "src/bunny.gif",
+                    "technologies": [ "Javascript", "CSS", "HTML" ],
+                    "description": "Using HLSL, ShaderLab and Unity, I created several Shader effects during the course <a href='https://www.udemy.com/course/unity-shaders/?srsltid=AfmBOopqc-Oh95oFcWy0zDlMeXjYGy3I3yyn5WWkduhjpl74RrcX5mTR' target='_blank'>Shader Development from Scratch with Cg</a>.<br> Check all the Shaders created at my <a href='https://www.behance.net/gallery/83409449/Unity-Shaders-Study' target='_blank'>Behance page</a>.",
+                    "downloadLink": "https://store.steampowered.com/app/example1"
+                }
+            ]
+        },
+
+        {
+            "projectName": "Game Jams",
+            "coverImage": "src/jam.png",
+            "projects": [
+                {
+                    "projectTitle": "Pew Pew Pillow",
+                    "targetPlatform": "PC",
+                    "technologies": [ "Unity", "C#" ],
+                    "description": "This game was developed at Global Game Jam 2019. In this project I worked as a programmer and tech artist.",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/Fqu8Xp7H8vg?si=YaYCmTw-r99qk0Hw",
+                    "downloadLink": "https://v3.globalgamejam.org/2019/games/pewpew-pillow"
+                },
+                {
+                    "projectTitle": "Apocalypse Ritual",
+                    "targetPlatform": "PC",
+                    "technologies": [ "Unity", "C#" ],
+                    "description": "Apocalypse Ritual is a game created in less than 48 hours at Global Game Jam 2016. In this project I worked as a programmer. ",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/fhV4iVJiqiI?si=ljLqVV_fDsI2tiMz",
+                    "downloadLink": "https://globalgamejam.org/2016/games/apocalypse-ritual"
+                },
+                {
+                    "projectTitle": "Acid Trip",
+                    "targetPlatform": "PC",
+                    "technologies": [ "Unity", "C#" ],
+                    "description": "Acid Trip is a runner developed at Uniritter's Game jam in two days. I worked as a programmer in this game. ",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/O_84p3ohD-4?si=VvD3j9fR4jPaJBHq"
+                }
+            ]
+        },
+        {
+            "projectName": "Web Projects",
+            "coverImage": "src/charada.png",
+            "projects": [
+                {
+                    "projectTitle": "Wordle",
+                    "targetPlatform": "Web/Browser",
+                    "technologies": [ "Javascript", "CSS", "HTML" ],
+                    "description": "This project was developed in a Multiplatform Programming Course at College, using CSS, HTML and Javascript. You can play this game using the link <a href='https://erikcrossdev.github.io/charada/' target='_blank'>here</a>.",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/WqDd7z02Ueo?si=ob3GQdJW9ICaXSCZ",
+                    "downloadLink": "https://erikcrossdev.github.io/charada/"
+                }
+
+            ]
+        }
+    ]
+}

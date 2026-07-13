@@ -1,0 +1,89 @@
+:root {
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+  --primary-color: #242742;
+  --bg-proj-color: rgb(118, 131, 145);
+  --primary-color-darker: #4a4343;
+  --proj-color: rgb(139, 153, 169);
+  --proj-color-hover: rgb(117, 141, 169);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: "Open sans", sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.headline {
+  color: azure;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  margin-top: auto;
+}
+.headline h1 {
+  font-style: italic;
+  margin-top: 100px;
+}
+.main-section {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.projects {
+  max-width: 90%;
+  margin: 50px auto;
+  background: var(--bg-proj-color);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.project {
+  padding: 25px;
+  align-content: top;
+  border-radius: 10px;
+  margin: 50px auto;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: var(--proj-color);
+  display: inline-block;
+}
+.project h3 {
+  text-align: center;
+}
+
+.project:hover {
+  background: var(--proj-color-hover);
+  color: azure;
+}
+
+.footer {
+  max-width: 90%;
+  margin: 50px auto;
+  align-content: center;
+  background: var(--bg-proj-color);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.about-me {
+  max-width: 90%;
+  margin: 20px auto;
+  align-content: center;
+  background: var(--bg-proj-color);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
