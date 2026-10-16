@@ -166,11 +166,11 @@
                             "description": "Survivor upgrades menu"
                         },
                          {
-                            "image": "src/remnants/3.PNG",
+                            "image": "src/remnants/3.png",
                             "description": "Buildings and Base upgrades menu"
                         },
                          {
-                            "image": "src/remnants/4.PNG",
+                            "image": "src/remnants/4.png",
                             "description": "Gameplay HUD during nightime, showing base lifebar, survivor lifebars, bullets and stamina. "
                         }
                     ]
@@ -221,11 +221,11 @@
                             "description": "Survivor upgrades menu"
                         },
                          {
-                            "image": "src/remnants/3.PNG",
+                            "image": "src/remnants/3.png",
                             "description": "Buildings and Base upgrades menu"
                         },
                          {
-                            "image": "src/remnants/4.PNG",
+                            "image": "src/remnants/4.png",
                             "description": "Gameplay HUD during nightime, showing base lifebar, survivor lifebars, bullets and stamina. "
                         }
                     ]
@@ -355,11 +355,11 @@
                             "description": "Survivor upgrades menu"
                         },
                          {
-                            "image": "src/remnants/3.PNG",
+                            "image": "src/remnants/3.png",
                             "description": "Buildings and Base upgrades menu"
                         },
                          {
-                            "image": "src/remnants/4.PNG",
+                            "image": "src/remnants/4.png",
                             "description": "Gameplay HUD during nightime, showing base lifebar, survivor lifebars, bullets and stamina. "
                         }
                     ]
