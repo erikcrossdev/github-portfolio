@@ -16,8 +16,50 @@
                     "targetPlatform": "iOS, Android, WebGL",
                     "technologies": [ "Unity", "C#", "GraphQL", "Typescript", "Prisma", "React" ],
                     "description": "<b>Edify Play</b> is a gamified platform focused on teaching English to children and teenagers. In this project, I worked on features such as: <ul> <li>Implemented <strong>character skins</strong> using <strong>Unity 2DAnimation</strong></li> <li>Created <strong>new activity tracks</strong></li><li>Developed and optimized <strong>UI/UX programming</strong></li>   <li>Integrated with the backend using <strong>GraphQL</strong> to update player data and load activities from the activity editor</li>    <li>Developed <strong>new game modes</strong></li>    <li>Performed <strong>general codebase maintenance</strong> including bug fixes and implementing new features</li>    <li>Worked on backend features using <strong>TypeScript, React, Node.js, Prisma, and GraphQL</strong></li> <li>Worked with <strong>native features</strong> for <strong>Android, WebGL, and iOS</strong></li> <li>Implemented and maintained <strong>Unity Cloud features</strong>, including <strong>build automation</strong> and <strong>Remote Config</strong></li></ul>",
-                    "embeddedVideoYoutube": "https://www.youtube.com/embed/-wPZqfPr2OU?si=CdvQknmQ5M2yZlT4",
-                    "downloadLink": "https://edifyeducation.com.br/edify-play/"
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/9F5FiggIURs?si=3x2-UY_urRbJi11x",
+                    "downloadLink": "https://edifyeducation.com.br/edify-play/",
+                    "images": [
+                        {
+                            "image": "src/edify/1.PNG",
+                            "description": "Login Menu: Implementing UI and functionality for login and registration, including integration with the backend using GraphQL."
+                        },
+                        {
+                            "image": "src/edify/2.PNG",
+                            "description": "Options Menu: Implementing UI and functionality for game options and settings."
+                        },
+                        {
+                            "image": "src/edify/3.PNG",
+                            "description": "Customization Menu: Implementing UI and functionality, 2DAnimation skin and swapping for customizing the Edibot's appearance."
+                        },
+                           {
+                            "image": "src/edify/4.PNG",
+                            "description": "Shop Menu: Implementing UI and functionality for purchasing items and managing the player's inventory, including integration with the backend using GraphQL."
+                        },
+                        {
+                            "image": "src/edify/5.PNG",
+                            "description": "Edicity: Implementing responsible UI and building selection"
+                        },
+                        {
+                            "image": "src/edify/6.PNG",
+                            "description": "Activity UI: Implementing general layout navgation and interaction"
+                        },
+                        {
+                            "image": "src/edify/7.PNG",
+                            "description": "Letter Scramble Game Mode: Implementing UI, System and Gameplay for the Letter Scramble Game Mode"
+                        },
+                        {
+                            "image": "src/edify/8.PNG",
+                            "description": "Word Scramble Game Mode: Implementing UI, System and Gameplay for the Word Scramble Game Mode"
+                        },
+                        {
+                            "image": "src/edify/9.PNG",
+                            "description": "Word Scramble Game Mode: Implementing UI, System and Gameplay for the Word Scramble Game Mode"
+                        },
+                        {
+                            "image": "src/edify/10.PNG",
+                            "description": "Implementing Victory animation using Animations and DoTween."
+                        }                       
+                    ]
                 }
             ]
         },
@@ -45,9 +87,23 @@
                     "projectTitle": "QuilomboZ: Palmares",
                     "targetPlatform": "PC (Steam)",
                     "technologies": [ "Unreal Engine 5", "C++", "Blueprints"],
-                    "description": "Lead elite warriors like Zumbi and Dandara in a real-time tactics game to defend the legendary Quilombo dos Palmares. Use stealth, terrain, and coordinated abilities to outsmart Portuguese forces and mercenaries. Channel Orisha powers through the Axé system to overcome overwhelming challenges. <br>In Relic Hunters: Legends, I developed features such as: <br><ul><li>UI/UX programming and design implementation using Widget Blueprints</li><li>Adding VFX using custom materials, shaders and post processing</li><li>Expanding C++ and Blueprint codebase</li></ul>",
-                    "embeddedVideoYoutube": "https://www.youtube.com/watch?v=otAyVBbglyU",
-                    "downloadLink": "https://store.steampowered.com/app/4596660/QuilomboZ_Palmares/"
+                    "description": "Lead elite warriors like Zumbi and Dandara in a real-time tactics game to defend the legendary Quilombo dos Palmares. Use stealth, terrain, and coordinated abilities to outsmart Portuguese forces and mercenaries. Channel Orisha powers through the Axé system to overcome overwhelming challenges. <br>In QuilomboZ: Palmares, I developed features such as: <br><ul><li>Responsible for all UI/UX programming and design implementation using Widget Blueprints for Gameplay and menus.</li><li>Adding VFX using custom materials, shaders and post processing</li><li>Adding improvements, polishes and performing bug fixes</li><li>Expanding C++ and Blueprint codebase</li><li>Responsible for systems such as the Tutorial System, including playing videos, binding to actions, navigation and animation</li></ul>",
+                    "embeddedVideoYoutube": "https://www.youtube.com/embed/mZVcqEgOAbg?si=H9cLaufyxI1bpOFZ",
+                    "downloadLink": "https://store.steampowered.com/app/4596660/QuilomboZ_Palmares/",
+                    "images": [
+                        {
+                            "image": "src/quilomboz/1.PNG",
+                            "description": "Gameplay HUD: Implementing lifebar; Abilities and tooltips; tutorial system that plays a video and shows the player how to perform an action. "
+                        },
+                         {
+                            "image": "src/quilomboz/2.PNG",
+                            "description": "Gameplay HUD: Abilities buttons with cooldown and required items"
+                        },
+                         {
+                            "image": "src/quilomboz/3.PNG",
+                            "description": "Settings and navigation HUDs and menus"
+                        }
+                    ]
                 }
             ]
         },
@@ -99,7 +155,25 @@
                     "technologies": [ "Unreal Engine 5", "C++", "Blueprints" ],
                     "description": "A outbreak just started! A small town needs to protected themselves and wait for rescue to come. Infecteds are all over the place! There is hope: they can't resist the daylight, but they can thrive at night. Remnants Of Nightfall is a strategy-shooter tower-defense. It was my final project in my undergraduate program in Digital Games at Unisinos.",
                     "embeddedVideoYoutube": "https://www.youtube.com/embed/XYUbZPeMfIk?si=-Jn0ygjXqyTu9OTf",
-                    "downloadLink": "https://utopia-game-studio.itch.io/remnants-of-nightfall"
+                    "downloadLink": "https://utopia-game-studio.itch.io/remnants-of-nightfall", 
+                     "images": [
+                        {
+                            "image": "src/remnants/1.PNG",
+                            "description": "Gameplay HUD during morning, showing Upgrade and Build buttons, and the current wave and time of day."
+                        },
+                         {
+                            "image": "src/remnants/2.PNG",
+                            "description": "Survivor upgrades menu"
+                        },
+                         {
+                            "image": "src/remnants/3.PNG",
+                            "description": "Buildings and Base upgrades menu"
+                        },
+                         {
+                            "image": "src/remnants/4.PNG",
+                            "description": "Gameplay HUD during nightime, showing base lifebar, survivor lifebars, bullets and stamina. "
+                        }
+                    ]
                 },
                 {
                     "projectTitle": "A Living Nightmare",
@@ -136,7 +210,25 @@
                     "technologies": [ "Unreal Engine 5", "C++", "Blueprints" ],
                     "description": "A outbreak just started! A small town needs to protected themselves and wait for rescue to come. Infecteds are all over the place! There is hope: they can't resist the daylight, but they can thrive at night. Remnants Of Nightfall is a strategy-shooter tower-defense. It was my final project in my undergraduate program in Digital Games at Unisinos.",
                     "embeddedVideoYoutube": "https://www.youtube.com/embed/XYUbZPeMfIk?si=-Jn0ygjXqyTu9OTf",
-                    "downloadLink": "https://utopia-game-studio.itch.io/remnants-of-nightfall"
+                    "downloadLink": "https://utopia-game-studio.itch.io/remnants-of-nightfall", 
+                    "images": [
+                        {
+                            "image": "src/remnants/1.PNG",
+                            "description": "Gameplay HUD during morning, showing Upgrade and Build buttons, and the current wave and time of day."
+                        },
+                         {
+                            "image": "src/remnants/2.PNG",
+                            "description": "Survivor upgrades menu"
+                        },
+                         {
+                            "image": "src/remnants/3.PNG",
+                            "description": "Buildings and Base upgrades menu"
+                        },
+                         {
+                            "image": "src/remnants/4.PNG",
+                            "description": "Gameplay HUD during nightime, showing base lifebar, survivor lifebars, bullets and stamina. "
+                        }
+                    ]
                 },
                 {
                     "projectTitle": "A Living Nightmare",
@@ -242,7 +334,7 @@
             ]
         },
         {
-            "projectName": "Unreal Engine/C++/ Blueprints Studies",
+            "projectName": "Unreal Engine - C++ and Blueprints Projects",
             "coverImage": "src/crypt.png",
             "description": "The following projects were developed as college projects and following the courses <a href='https://www.udemy.com/course/unrealcourse/?couponCode=ST1MT31025G3'>Unreal Engine 5 C++ Developer: Learn C++ & Make Video Games</a> and <a href='https://www.udemy.com/course/unreal-engine-5-complete-beginner-course/?couponCode=ST1MT31025G3'>Unreal Engine 5 - Beginner Course</a> using Blueprints and C++.",
             "projects": [
@@ -252,7 +344,25 @@
                     "technologies": [ "Unreal Engine 5", "C++", "Blueprints" ],
                     "description": "A outbreak just started! A small town needs to protected themselves and wait for rescue to come. Infecteds are all over the place! There is hope: they can't resist the daylight, but they can thrive at night. Remnants Of Nightfall is a strategy-shooter tower-defense. It was my final project in my undergraduate program in Digital Games at Unisinos.",
                     "embeddedVideoYoutube": "https://www.youtube.com/embed/XYUbZPeMfIk?si=-Jn0ygjXqyTu9OTf",
-                    "downloadLink": "https://utopia-game-studio.itch.io/remnants-of-nightfall"
+                    "downloadLink": "https://utopia-game-studio.itch.io/remnants-of-nightfall",
+                    "images": [
+                        {
+                            "image": "src/remnants/1.PNG",
+                            "description": "Gameplay HUD during morning, showing Upgrade and Build buttons, and the current wave and time of day."
+                        },
+                         {
+                            "image": "src/remnants/2.PNG",
+                            "description": "Survivor upgrades menu"
+                        },
+                         {
+                            "image": "src/remnants/3.PNG",
+                            "description": "Buildings and Base upgrades menu"
+                        },
+                         {
+                            "image": "src/remnants/4.PNG",
+                            "description": "Gameplay HUD during nightime, showing base lifebar, survivor lifebars, bullets and stamina. "
+                        }
+                    ]
                 },
                 {
                     "projectTitle": "Third Person Shooter",
